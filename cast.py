@@ -1,3 +1,5 @@
+print("This program provides examples of the type() function.")
+
 # Check the data types of different values
 print(type("Hello, world"))
 print(type(10))
