@@ -1,35 +1,22 @@
 import math
 
-num1 = -10
-num2 = 5
-
-# Calculate the absolute value of a number using abs()
+# Built-in math fuctions: abs(), max(), min()
+neg = -100
 absolute_value = abs(num1)
-print(f"The absolute value of {num1} is {absolute_value}")
+print(f"The absolute value of {neg} is {absolute_value}")
 
-# Find the maximum of two numbers using max()
-maximum = max(num1, num2)
-print(f"The maximum between {num1} and {num2} is {maximum}")
+# Find the max of two or more numbers
+maximum = max(10, 0, 12, 32, -9,  6)
+print(f"The maximum is {maximum}")
 
-# Find the minimum of two numbers using min()
-minimum = min(num1, num2)
-print(f"The minimum between {num1} and {num2} is {minimum}")
+# Find the min of two or more numbers
+minimum = min(100, 99, 98, 100 - 4)
+print(f"The minimum is {minimum}")
 
 # Using math.sqrt() to calculate the square root of a number
 num = 25
 square_root = math.sqrt(num)
 print(f"Square root of {num} is {square_root}")
-
-# Using math.pow() to calculate the power of a number
-base = 2
-exponent = 3
-result = math.pow(base, exponent)
-print(f"{base} raised to the power of {exponent} is {result}")
-
-# Using math.exp() to calculate the exponential value
-x = 2.0
-exponential = math.exp(x)
-print(f"e^{x} is approximately {exponential}")
 
 # Using math.sin() and math.cos() to calculate trigonometric values
 angle = math.pi / 4  # 45 degrees in radians
