@@ -1,5 +1,3 @@
-# TODO: Write your name here.
-
 import random
 
 PLAYER = 'player'
